@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://chenzhaiyu.github.io/sitemap.xml

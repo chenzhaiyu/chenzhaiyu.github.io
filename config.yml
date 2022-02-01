@@ -1,4 +1,4 @@
-baseURL: "https://chenzhaiyu.com/"
+baseURL: "https://chenzhaiyu.github.io/"
 languageCode: en-us
 title: Zhaiyu Chen
 paginate: 5
@@ -56,6 +56,6 @@ params:
       url: "mailto:zhaiyu.chen@outlook.com"
 
   editPost:
-    URL: "https://github.com/chenzhaiyu/website"
+    URL: "https://github.com/chenzhaiyu/chenzhaiyu.github.io"
     Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link

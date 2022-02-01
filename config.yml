@@ -1,0 +1,61 @@
+baseURL: "https://chenzhaiyu.com/"
+languageCode: en-us
+title: Zhaiyu Chen
+paginate: 5
+theme: PaperMod
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+params:
+  # env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  title: Zhaiyu Chen
+  description: "Zhaiyu Chen"
+
+  author: Zhaiyu Chen
+  # author: ["Me", "You"] # multiple authors
+  images: ["<link or path of image for opengraph, twitter-cards>"]
+  DateFormat: "January 2, 2006"
+  defaultTheme: auto # dark, light
+  disableThemeToggle: false
+
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: false
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  comments: false
+  hidemeta: false
+  hideSummary: false
+  showtoc: false
+  tocopen: false
+
+
+  # home-info mode
+  homeInfoParams:
+    Title: "Hi there \U0001F44B"
+    Content: I am a researcher at the [3D geoinformation research group](https://3d.bk.tudelft.nl/)
+     at the [Delft University of Technology](https://www.tudelft.nl/en/) in the Netherlands. 
+     My research interest lies at the intersection of remote sensing and computer vision, 
+     particularly with applications in the built environment.
+
+  socialIcons:
+    - name: github
+      url: "https://github.com/chenzhaiyu"
+    - name: linkedin
+      url: "https://www.linkedin.com/in/zhaiyu-chen/"
+    - name: email
+      url: "mailto:zhaiyu.chen@outlook.com"
+
+  editPost:
+    URL: "https://github.com/chenzhaiyu/website"
+    Text: "Suggest Changes" # edit text
+    appendFilePath: true # to append file path to Edit link

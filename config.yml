@@ -42,10 +42,10 @@ params:
   # home-info mode
   homeInfoParams:
     Title: "Hi there \U0001F44B"
-    Content: I am a PhD student in the [data science in earth observation research group](https://www.asg.ed.tum.de/en/sipeo/home/)
-     at the [Technical University of Munich](https://www.tum.de/en/) in Germany.
-     Before that, I was a researcher in the [3D geoinformation research group](https://3d.bk.tudelft.nl/)
-     at the [Delft University of Technology](https://www.tudelft.nl/en/) in the Netherlands. 
+    Content: I am a PhD student in the [chair of data science in earth observation](https://www.asg.ed.tum.de/en/sipeo/home/)
+     at [Technical University of Munich](https://www.tum.de/en/) in Germany.
+     Before that, I was with the [3D geoinformation research group](https://3d.bk.tudelft.nl/)
+     at [Delft University of Technology](https://www.tudelft.nl/en/) in the Netherlands. 
      My research interest lies at the intersection of remote sensing and computer vision, 
      particularly with applications in the built environment.
 

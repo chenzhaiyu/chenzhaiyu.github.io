@@ -54,6 +54,8 @@ params:
       url: "https://github.com/chenzhaiyu"
     - name: linkedin
       url: "https://www.linkedin.com/in/zhaiyu-chen/"
+    - name: googlescholar
+      url: "https://scholar.google.com/citations?user=SuifyjcAAAAJ&hl=en"
     - name: email
       url: "mailto:zhaiyu.chen@outlook.com"
 

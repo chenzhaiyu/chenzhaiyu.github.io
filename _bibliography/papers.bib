@@ -1,39 +1,31 @@
 ---
 ---
 
-@string{isprs = {ISPRS Journal of Photogrammetry and Remote Sensing,}}
-@string{cvpr = {IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR),}}
+@string{isprs = {ISPRS Journal of Photogrammetry and Remote Sensing}}
+@string{cvpr = {IEEE/CVF Conference on Computer Vision and Pattern Recognition}}
 
-@article{chen2022points2poly,
-  abbr={ISPRS P&RS},
-  bibtex_show={true},
-  title = {Reconstructing compact building models from point clouds using deep implicit fields},
-  journal = isprs,
-  volume = {194},
-  pages = {58-73},
-  year = {2022},
-  issn = {0924-2716},
-  doi = {10.1016/j.isprsjprs.2022.09.017},
-  author = {Zhaiyu Chen and Hugo Ledoux and Seyran Khademi and Liangliang Nan},
-  abstract={While three-dimensional (3D) building models play an increasingly pivotal role in many real-world applications, 
-    obtaining a compact representation of buildings remains an open problem. In this paper, we present a novel framework for 
-    reconstructing compact, watertight, polygonal building models from point clouds. Our framework comprises three components: 
-    (a) a cell complex is generated via adaptive space partitioning that provides a polyhedral embedding as the candidate set; 
-    (b) an implicit field is learned by a deep neural network that facilitates building occupancy estimation; 
-    (c) a Markov random field is formulated to extract the outer surface of a building via combinatorial optimization. 
-    We evaluate and compare our method with state-of-the-art methods in generic reconstruction, model-based reconstruction, geometry simplification, and primitive assembly. 
-    Experiments on both synthetic and real-world point clouds have demonstrated that, with our neural-guided strategy, 
-    high-quality building models can be obtained with significant advantages in fidelity, compactness, and computational efficiency. 
-    Our method also shows robustness to noise and insufficient measurements, and it can directly generalize from synthetic scans
-    to real-world measurements. The source code of this work is freely available at https://github.com/chenzhaiyu/points2poly},
-  html={https://www.sciencedirect.com/science/article/pii/S0924271622002611},
-  pdf={chen2022points2poly.pdf},
-  code={https://github.com/chenzhaiyu/points2poly},
-  selected={true},
+@article{chen2025paco,
+abbr={CVPR},
+bibtex_show={true},
+title = {Parametric Point Cloud Completion for Polygonal Surface Reconstruction},
+journal = cvpr,
+year = {2025},
+author = {Zhaiyu Chen and Yuqing Wang and Liangliang Nan and Xiao Xiang Zhu},
+abstract={Existing polygonal surface reconstruction methods heavily depend on input completeness and struggle with incomplete point clouds. 
+We argue that while current point cloud completion techniques may recover missing points, they are not optimized for polygonal surface reconstruction, 
+where the parametric representation of underlying surfaces remains overlooked. To address this gap, we introduce parametric completion, 
+a novel paradigm for point cloud completion, which recovers parametric primitives instead of individual points to convey high-level geometric structures. 
+Our presented approach, PaCo, enables high-quality polygonal surface reconstruction by leveraging plane proxies that encapsulate both plane parameters and inlier points, 
+proving particularly effective in challenging scenarios with highly incomplete data. Comprehensive evaluations of our approach on the ABC dataset 
+establish its effectiveness with superior performance and set a new standard for polygonal surface reconstruction from incomplete data.},
+code={https://github.com/PaCo-X/PaCo},
+website={https://parametric-completion.github.io},
+selected={true},
+preview={chen2025paco.gif}
 }
 
 @article{chen2024polygnn,
-abbr={ISPRS P&RS},
+abbr={ISPRS},
 bibtex_show={true},
 title = {PolyGNN: Polyhedron-based graph neural network for 3D building reconstruction from point clouds},
 journal = isprs,
@@ -52,18 +44,17 @@ abstract={We present PolyGNN, a polyhedron-based graph neural network for 3D bui
   To address the abstraction gap between existing city-building models and the underlying instances, 
   and provide a fair evaluation of the proposed method, we develop our method on a large-scale synthetic dataset with 
   well-defined ground truths of polyhedral labels. We further conduct a transferability analysis across cities and on real-world point clouds. 
-  Both qualitative and quantitative results demonstrate the effectiveness of our method, particularly its efficiency for large-scale reconstructions. 
-  The source code and data are available at https://github.com/chenzhaiyu/polygnn.},
+  Both qualitative and quantitative results demonstrate the effectiveness of our method, particularly its efficiency for large-scale reconstructions.},
 html={https://www.sciencedirect.com/science/article/pii/S0924271622002611},
-pdf={chen2024polygnn.pdf},
 code={https://github.com/chenzhaiyu/polygnn},
 selected={true},
+preview={chen2024polygnn.gif}
 }
 
 @article{zhao2024gnn,
 abbr={GRSM},
 bibtex_show={true},
-author={Zhao, Shan and Chen, Zhaiyu and Xiong, Zhitong and Shi, Yilei and Saha, Sudipan and Zhu, Xiao Xiang},
+author={Shan Zhao and Zhaiyu Chen and Zhitong Xiong and Yilei Shi and Sudipan Saha and Xiao Xiang Zhu},
 journal={IEEE Geoscience and Remote Sensing Magazine}, 
 title={Beyond Grid Data: Exploring graph neural networks for Earth observation}, 
 year={2024},
@@ -82,24 +73,59 @@ abstract={Earth Observation (EO) data analysis has been significantly revolution
   Furthermore, we highlight methodological challenges of implementing GNNs in these domains and possible solutions that could guide future research. 
   While acknowledging that GNNs are not a universal solution, we conclude the paper by comparing them with other popular architectures like transformers and analyzing their potential synergies.},
 selected={true},
+preview={zhao2024gnn.png}
 }
 
-@article{chen2025paco,
-abbr={CVPR},
+
+@inproceedings{feng2024shade,
+abbr={SIGSPATIAL},
 bibtex_show={true},
-title = {Parametric Point Cloud Completion for Polygonal Surface Reconstruction},
-journal = cvpr,
-year = {2025},
-author = {Zhaiyu Chen and Yuqing Wang and Liangliang Nan and Xiao Xiang Zhu},
-abstract={Existing polygonal surface reconstruction methods heavily depend on input completeness and struggle with incomplete point clouds. 
-We argue that while current point cloud completion techniques may recover missing points, they are not optimized for polygonal surface reconstruction, 
-where the parametric representation of underlying surfaces remains overlooked. To address this gap, we introduce parametric completion, 
-a novel paradigm for point cloud completion, which recovers parametric primitives instead of individual points to convey high-level geometric structures. 
-Our presented approach, PaCo, enables high-quality polygonal surface reconstruction by leveraging plane proxies that encapsulate both plane parameters and inlier points, 
-proving particularly effective in challenging scenarios with highly incomplete data. Comprehensive evaluations of our approach on the ABC dataset 
-establish its effectiveness with superior performance and set a new standard for polygonal surface reconstruction from incomplete data.},
-pdf={chen2025paco.pdf},
-code={https://github.com/PaCo-X/PaCo},
-website={https://parametric-completion.github.io},
+author = {Yu Feng and Puzhen Zhang and Jiaying Xue and Zhaiyu Chen and Liqiu Meng},
+title = {Walking in the Shade: Shadow-oriented Navigation for Pedestrians},
+year = {2024},
+isbn = {9798400711077},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+html = {https://doi.org/10.1145/3678717.3691287},
+doi = {10.1145/3678717.3691287},
+abstract = {Excessive exposure to the sun and the resulting heat poses health risks to pedestrians in hot weather. 
+To mitigate these risks, we propose a shadow-oriented navigation system that offers cooler and more convenient walking routes 
+by simulating shadows. Our system integrates a manually corrected pedestrian network from OpenStreetMap with LoD2 3D city models, 
+using a ray tracing module for real-time shadow simulation. It optimizes routes to be either cooler or shorter based on user preferences, 
+with easy verification through 3D scene visualization. Our navigation system has been implemented in a study area in Munich, Germany, 
+with further discussions on the technical feasibility and challenges of extending it to larger areas.},
+booktitle = {Proceedings of the 32nd ACM International Conference on Advances in Geographic Information Systems},
+pages = {677–680},
+numpages = {4},
+keywords = {3D city model, Comfort-oriented navigation, Pedestrian navigation, Shadow simulation},
+location = {Atlanta, GA, USA},
+series = {SIGSPATIAL '24},
+selected={false},
+preview={feng2024shade.png}
+}
+
+@article{chen2022points2poly,
+abbr={ISPRS},
+bibtex_show={true},
+title = {Reconstructing compact building models from point clouds using deep implicit fields},
+journal = isprs,
+volume = {194},
+pages = {58-73},
+year = {2022},
+issn = {0924-2716},
+doi = {10.1016/j.isprsjprs.2022.09.017},
+author = {Zhaiyu Chen and Hugo Ledoux and Seyran Khademi and Liangliang Nan},
+abstract={While three-dimensional (3D) building models play an increasingly pivotal role in many real-world applications, 
+  obtaining a compact representation of buildings remains an open problem. In this paper, we present a novel framework for 
+  reconstructing compact, watertight, polygonal building models from point clouds. Our framework comprises three components: 
+  (a) a cell complex is generated via adaptive space partitioning that provides a polyhedral embedding as the candidate set; 
+  (b) an implicit field is learned by a deep neural network that facilitates building occupancy estimation; 
+  (c) a Markov random field is formulated to extract the outer surface of a building via combinatorial optimization. 
+  We evaluate and compare our method with state-of-the-art methods in generic reconstruction, model-based reconstruction, geometry simplification, and primitive assembly. 
+  Experiments on both synthetic and real-world point clouds have demonstrated that, with our neural-guided strategy, 
+  high-quality building models can be obtained with significant advantages in fidelity, compactness, and computational efficiency. 
+  Our method also shows robustness to noise and insufficient measurements, and it can directly generalize from synthetic scans to real-world measurements.},
+code={https://github.com/chenzhaiyu/points2poly},
 selected={true},
+preview={chen2022points2poly.gif}
 }

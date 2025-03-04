@@ -8,7 +8,7 @@ profile:
   align: right
   image: profile_cartoon.png
   image_circular: false # crops the image to make it circular
-  more_info: >
+  more_info: |
     <p>0501.01.117</p>
     <p>Arcisstraße 21</p>
     <p>80333 Munich</p>

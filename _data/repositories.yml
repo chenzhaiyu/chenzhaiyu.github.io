@@ -5,6 +5,7 @@ repo_description_lines_max: 2
 
 github_repos:
   - chenzhaiyu/abspy
-  - chenzhaiyu/points2poly
+  - parametric-completion/paco
   - chenzhaiyu/polygnn
+  - chenzhaiyu/points2poly
   - chenzhaiyu/awesome-planar-reconstruction

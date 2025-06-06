@@ -4,6 +4,26 @@
 @string{isprs = {ISPRS Journal of Photogrammetry and Remote Sensing}}
 @string{cvpr = {IEEE/CVF Conference on Computer Vision and Pattern Recognition}}
 
+@article{chen2025abspy,
+abbr={JOSS 2025},
+bibtex_show={true},
+title = {abspy: A Python Package for 3D Adaptive Binary Space Partitioning and Modeling},
+journal = {Journal of Open Source Software},
+year = {2025},
+author = {Zhaiyu Chen},
+abstract={Efficient and robust space partitioning of 3D space underpins many applications in computer graphics. 
+abspy is a Python package for adaptive binary space partitioning and 3D modeling. 
+At its core, abspy constructs a plane arrangement by recursively subdividing 3D space with planar primitives to form a linear cell complex that reflects the underlying geometric structure. 
+This adaptive scheme iteratively refines the spatial decomposition, producing a compact representation that supports efficient 3D modeling and analysis. 
+Built on robust arithmetic kernels and interoperable data structures, abspy exposes a high‑level Python API that lets researchers prototype advanced 3D pipelines such as surface reconstruction, 
+volumetric analysis, and feature extraction for machine learning.},
+doi = {10.21105/joss.07946},
+html={https://joss.theoj.org/papers/10.21105/joss.07946},
+code={https://github.com/chenzhaiyu/abspy},
+selected={true},
+preview={chen2025abspy.gif}
+}
+
 @article{chen2025paco,
 abbr={CVPR 2025},
 bibtex_show={true},
@@ -18,6 +38,7 @@ a novel paradigm for point cloud completion, which recovers parametric primitive
 Our presented approach, PaCo, enables high-quality polygonal surface reconstruction by leveraging plane proxies that encapsulate both plane parameters and inlier points, 
 proving particularly effective in challenging scenarios with highly incomplete data. Comprehensive evaluations of our approach on the ABC dataset 
 establish its effectiveness with superior performance and set a new standard for polygonal surface reconstruction from incomplete data.},
+arxiv={2503.08363},
 code={https://github.com/parametric-completion/paco},
 website={https://parametric-completion.github.io},
 selected={true},

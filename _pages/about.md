@@ -9,12 +9,12 @@ profile:
   image: profile_cartoon.png
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>0501.01.117</p>
+    <p>Room 0501.01.117</p>
     <p>Arcisstraße 21</p>
     <p>80333 Munich</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+social: false # includes social icons at the bottom of the page
 
 announcements:
   enabled: false # includes a list of news items

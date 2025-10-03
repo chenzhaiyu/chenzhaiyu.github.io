@@ -29,6 +29,6 @@ latest_posts:
 
 I am a PhD student at the [Chair of Data Science in Earth Observation](https://www.asg.ed.tum.de/en/sipeo/home/), [Technical University of Munich](https://www.tum.de/en/).
 Previously, I worked with the [3D Geoinformation Research Group](https://3d.bk.tudelft.nl/) at [Delft University of Technology](https://www.tudelft.nl/en/), 
-where I completed a Master's degree in [Geomatics](https://www.tudelft.nl/en/education/programmes/masters/gm/msc-geomatics/) following a Bachelor's degree in Remote Sensing from [Wuhan University](https://en.whu.edu.cn/).
+where I completed a Master’s degree in [Geomatics](https://www.tudelft.nl/en/education/programmes/masters/gm/msc-geomatics/) following a Bachelor’s degree in Remote Sensing from [Wuhan University](https://en.whu.edu.cn/).
 
-My research interest lies at the intersection of 3D computer vision and remote sensing, with a particular emphasis on applications in the built environment.
+My research interests lie at the intersection of 3D computer vision and machine learning, with applications to remote sensing of the built environment.

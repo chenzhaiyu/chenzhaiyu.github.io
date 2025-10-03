@@ -3,6 +3,30 @@
 
 @string{isprs = {ISPRS Journal of Photogrammetry and Remote Sensing}}
 @string{cvpr = {IEEE/CVF Conference on Computer Vision and Pattern Recognition}}
+@string{neurips = {Advances in Neural Information Processing Systems}}
+
+@article{wang2025simeco,
+abbr={NeurIPS 2025},
+bibtex_show={true},
+title={Learning Generalizable Shape Completion with SIM(3) Equivariance},
+journal=neurips,
+year={2025},
+author={Yuqing Wang* and Zhaiyu Chen* and Xiao Xiang Zhu},
+abstract={3D shape completion methods typically assume scans are pre-aligned to a canonical frame. 
+This leaks pose and scale cues that networks may exploit to memorize absolute positions rather than inferring intrinsic geometry. 
+When such alignment is absent in real data, performance collapses. 
+We argue that robust generalization demands architectural equivariance to the similarity group, SIM(3), so the model remains agnostic to pose and scale. 
+Following this principle, we introduce the first SIM(3)-equivariant shape completion network, whose modular layers successively canonicalize features, 
+reason over similarity-invariant geometry, and restore the original frame. Under a de-biased evaluation protocol that removes the hidden cues, 
+our model outperforms both equivariant and augmentation baselines on the PCN benchmark. 
+It also sets new cross-domain records on real driving and indoor scans, lowering minimal matching distance on KITTI by 17% and Chamfer distance \ell1 on OmniObject3D by 14%. 
+Perhaps surprisingly, ours under the stricter protocol still outperforms competitors under their biased settings. 
+These results establish full SIM(3) equivariance as an effective route to truly generalizable shape completion.},
+code={https://github.com/complete3d/simeco},
+website={https://sime-completion.github.io},
+selected={true},
+preview={wang2025simeco.gif}
+}
 
 @article{chen2025abspy,
 abbr={JOSS 2025},
@@ -15,7 +39,7 @@ abstract={Efficient and robust space partitioning of 3D space underpins many app
 abspy is a Python package for adaptive binary space partitioning and 3D modeling. 
 At its core, abspy constructs a plane arrangement by recursively subdividing 3D space with planar primitives to form a linear cell complex that reflects the underlying geometric structure. 
 This adaptive scheme iteratively refines the spatial decomposition, producing a compact representation that supports efficient 3D modeling and analysis. 
-Built on robust arithmetic kernels and interoperable data structures, abspy exposes a high‑level Python API that lets researchers prototype advanced 3D pipelines such as surface reconstruction, 
+Built on robust arithmetic kernels and interoperable data structures, abspy exposes a high-level Python API that lets researchers prototype advanced 3D pipelines such as surface reconstruction, 
 volumetric analysis, and feature extraction for machine learning.},
 doi={10.21105/joss.07946},
 html={https://joss.theoj.org/papers/10.21105/joss.07946},
@@ -39,7 +63,7 @@ a novel paradigm for point cloud completion, which recovers parametric primitive
 Our presented approach, PaCo, enables high-quality polygonal surface reconstruction by leveraging plane proxies that encapsulate both plane parameters and inlier points, 
 proving particularly effective in challenging scenarios with highly incomplete data. Comprehensive evaluations of our approach on the ABC dataset 
 establish its effectiveness with superior performance and set a new standard for polygonal surface reconstruction from incomplete data.},
-code={https://github.com/parametric-completion/paco},
+code={https://github.com/complete3d/paco},
 website={https://parametric-completion.github.io},
 selected={true},
 preview={chen2025paco.gif}
@@ -97,7 +121,6 @@ abstract={Earth Observation (EO) data analysis has been significantly revolution
 selected={true},
 preview={zhao2024gnn.png}
 }
-
 
 @inproceedings{feng2024shade,
 abbr={SIGSPATIAL 2024},

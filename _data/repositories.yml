@@ -5,7 +5,10 @@ repo_description_lines_max: 2
 
 github_repos:
   - chenzhaiyu/abspy
-  - parametric-completion/paco
   - chenzhaiyu/polygnn
   - chenzhaiyu/points2poly
   - chenzhaiyu/awesome-planar-reconstruction
+  - complete3d/paco
+  - complete3d/simeco
+  - complete3d/unico
+  - zhu-xlab/tomosar2height

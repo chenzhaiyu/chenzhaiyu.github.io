@@ -1,20 +1,18 @@
 ---
 ---
 
-@string{isprs = {ISPRS Journal of Photogrammetry and Remote Sensing}}
-@string{cvpr = {IEEE/CVF Conference on Computer Vision and Pattern Recognition}}
-@string{neurips = {Advances in Neural Information Processing Systems}}
+@string{isprs={ISPRS Journal of Photogrammetry and Remote Sensing}}
+@string{cvpr={IEEE/CVF Conference on Computer Vision and Pattern Recognition}}
+@string{neurips={Advances in Neural Information Processing Systems}}
 
-@misc{chen2026unico,
-abbr={Preprint},
+@article{chen2026unico,
+abbr={CVPR 2026},
 bibtex_show={true},
 title={Unified Primitive Proxies for Structured Shape Completion}, 
 author={Zhaiyu Chen and Yuqing Wang and Xiao Xiang Zhu},
 abstract={Structured shape completion recovers missing geometry as primitives rather than as unstructured points, which enables primitive-based surface reconstruction. Instead of following the prevailing cascade, we rethink how primitives and points should interact, and find it more effective to decode primitives in a dedicated pathway that attends to shared shape features. Following this principle, we present UniCo, which in a single feed-forward pass predicts a set of primitives with complete geometry, semantics, and inlier membership. To drive this unified representation, we introduce primitive proxies, learnable queries that are contextualized to produce assembly-ready outputs. To ensure consistent optimization, our training strategy couples primitives and points with online target updates. Across synthetic and real-world benchmarks with four independent assembly solvers, UniCo consistently outperforms recent baselines, lowering Chamfer distance by up to 50% and improving normal consistency by up to 7%. These results establish an attractive recipe for structured 3D understanding from incomplete data.},
+journal=cvpr,
 year={2026},
-eprint={2601.00759},
-archivePrefix={arXiv},
-primaryClass={cs.CV},
 website={https://unico-completion.github.io},
 arxiv={2601.00759},
 selected={true},
@@ -38,17 +36,18 @@ preview={chen2026tomosar2height.png}
 @article{wysocki2026tum2twin,
 abbr={ISPRS 2026},
 bibtex_show={true},
-title = {TUM2TWIN: Introducing the large-scale multimodal urban digital twin benchmark dataset},
-journal = isprs,
-volume = {232},
-pages = {810-830},
-year = {2026},
-issn = {0924-2716},
+title={TUM2TWIN: Introducing the Large-Scale Multimodal Urban Digital Twin Benchmark Dataset},
+journal=isprs,
+volume={232},
+pages={810-830},
+year={2026},
+issn={0924-2716},
 preview={wysocki2026tum2twin.png},
 selected={false},
-doi = {10.1016/j.isprsjprs.2025.12.013},
-author = {Olaf Wysocki and Benedikt Schwab and Manoj Kumar Biswanath and Michael Greza and Qilin Zhang and Jingwei Zhu and Thomas Froech and Medhini Heeramaglore and Ihab Hijazi and Khaoula Kanna and Mathias Pechinger and Zhaiyu Chen and Yao Sun and Alejandro Rueda Segura and Ziyang Xu and Omar AbdelGafar and Mansour Mehranfar and Chandan Yeshwanth and Yueh-Cheng Liu and Hadi Yazdi and Jiapan Wang and Stefan Auer and Katharina Anders and Klaus Bogenberger and André Borrmann and Angela Dai and Ludwig Hoegner and Christoph Holst and Thomas H. Kolbe and Ferdinand Ludwig and Matthias Nießner and Frank Petzold and Xiao Xiang Zhu and Boris Jutzi},
-abstract = {Urban Digital Twins (UDTs) have become essential for managing cities and integrating complex, heterogeneous data from diverse sources. Creating UDTs involves challenges at multiple process stages, including acquiring accurate 3D source data, reconstructing high-fidelity 3D models, maintaining models' updates, and ensuring seamless interoperability to downstream tasks. Current datasets are usually limited to one part of the processing chain, hampering comprehensive Urban Digital Twin (UDT)s validation. To address these challenges, we introduce the first comprehensive multimodal Urban Digital Twin benchmark dataset: TUM2TWIN. This dataset includes georeferenced, semantically aligned 3D models and networks along with various terrestrial, mobile, aerial, and satellite observations boasting 32 data subsets over roughly 100,000 m2 and currently 767 GB of data. By ensuring georeferenced indoor–outdoor acquisition, high accuracy, and multimodal data integration, the benchmark supports robust analysis of sensors and the development of advanced reconstruction methods. Additionally, we explore downstream tasks demonstrating the potential of TUM2TWIN, including novel view synthesis of NeRF and Gaussian Splatting, solar potential analysis, point cloud semantic segmentation, and LoD3 building reconstruction. We are convinced this contribution lays a foundation for overcoming current limitations in UDT creation, fostering new research directions and practical solutions for smarter, data-driven urban environments. The project is available under: https://tum2t.win.}
+doi={10.1016/j.isprsjprs.2025.12.013},
+website={https://tum2t.win},
+author={Olaf Wysocki and Benedikt Schwab and Manoj Kumar Biswanath and Michael Greza and Qilin Zhang and Jingwei Zhu and Thomas Froech and Medhini Heeramaglore and Ihab Hijazi and Khaoula Kanna and Mathias Pechinger and Zhaiyu Chen and Yao Sun and Alejandro Rueda Segura and Ziyang Xu and Omar AbdelGafar and Mansour Mehranfar and Chandan Yeshwanth and Yueh-Cheng Liu and Hadi Yazdi and Jiapan Wang and Stefan Auer and Katharina Anders and Klaus Bogenberger and André Borrmann and Angela Dai and Ludwig Hoegner and Christoph Holst and Thomas H. Kolbe and Ferdinand Ludwig and Matthias Nießner and Frank Petzold and Xiao Xiang Zhu and Boris Jutzi},
+abstract={Urban Digital Twins (UDTs) have become essential for managing cities and integrating complex, heterogeneous data from diverse sources. Creating UDTs involves challenges at multiple process stages, including acquiring accurate 3D source data, reconstructing high-fidelity 3D models, maintaining models' updates, and ensuring seamless interoperability to downstream tasks. Current datasets are usually limited to one part of the processing chain, hampering comprehensive Urban Digital Twin (UDT)s validation. To address these challenges, we introduce the first comprehensive multimodal Urban Digital Twin benchmark dataset: TUM2TWIN. This dataset includes georeferenced, semantically aligned 3D models and networks along with various terrestrial, mobile, aerial, and satellite observations boasting 32 data subsets over roughly 100,000 m2 and currently 767 GB of data. By ensuring georeferenced indoor–outdoor acquisition, high accuracy, and multimodal data integration, the benchmark supports robust analysis of sensors and the development of advanced reconstruction methods. Additionally, we explore downstream tasks demonstrating the potential of TUM2TWIN, including novel view synthesis of NeRF and Gaussian Splatting, solar potential analysis, point cloud semantic segmentation, and LoD3 building reconstruction. We are convinced this contribution lays a foundation for overcoming current limitations in UDT creation, fostering new research directions and practical solutions for smarter, data-driven urban environments. The project is available under: https://tum2t.win.}
 }
 
 @article{wang2025simeco,
@@ -186,4 +185,3 @@ code={https://github.com/chenzhaiyu/points2poly},
 selected={true},
 preview={chen2022points2poly.gif}
 }
-

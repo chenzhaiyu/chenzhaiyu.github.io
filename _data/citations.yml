@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-02-23'
+  last_updated: '2026-03-02'
 papers:
   SuifyjcAAAAJ:2osOgNQ5qMEC:
     citations: 2
@@ -18,11 +18,11 @@ papers:
     title: 'abspy: a Python package for 3D adaptive binary space partitioning and modeling'
     year: '2025'
   SuifyjcAAAAJ:9yKSN-GCB0IC:
-    citations: 80
+    citations: 83
     title: Reconstructing compact building models from point clouds using deep implicit fields
     year: '2022'
   SuifyjcAAAAJ:KlAtU1dfN6UC:
-    citations: 31
+    citations: 32
     title: 'Beyond grid data: exploring graph neural networks for Earth observation'
     year: '2024'
   SuifyjcAAAAJ:MXK_kJrjxJIC:
@@ -34,7 +34,7 @@ papers:
     title: Reconstructing building height from spaceborne TomoSAR point clouds using a dual-topology network
     year: '2026'
   SuifyjcAAAAJ:YOwf2qJgpHMC:
-    citations: 6
+    citations: 7
     title: Parametric point cloud completion for polygonal surface reconstruction
     year: '2025'
   SuifyjcAAAAJ:Zph67rFs4hoC:
@@ -42,7 +42,7 @@ papers:
     title: 'Walking in the shade: shadow-oriented navigation for pedestrians'
     year: '2024'
   SuifyjcAAAAJ:_kc_bZDykSQC:
-    citations: 7
+    citations: 9
     title: 'TUM2TWIN: introducing the large-scale multimodal urban digital twin benchmark dataset'
     year: '2025'
   SuifyjcAAAAJ:aqlVkmm33-oC:
@@ -50,7 +50,7 @@ papers:
     title: Learning generalizable shape completion with SIM(3) equivariance
     year: '2025'
   SuifyjcAAAAJ:hqOjcs7Dif8C:
-    citations: 7
+    citations: 8
     title: "Artificial intelligence for the automated creation of multi-scale digital twins of the built world\u2013AI4TWINNING"
     year: '2023'
   SuifyjcAAAAJ:qjMakFHDy7sC:
@@ -58,6 +58,6 @@ papers:
     title: A comparative study of point clouds semantic segmentation using three different neural networks on a railway station dataset
     year: '2021'
   SuifyjcAAAAJ:zYLM7Y9cAGgC:
-    citations: 27
+    citations: 30
     title: 'PolyGNN: polyhedron-based graph neural network for 3D building reconstruction from point clouds'
     year: '2024'

@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-03-09'
+  last_updated: '2026-03-16'
 papers:
   SuifyjcAAAAJ:2osOgNQ5qMEC:
     citations: 2
@@ -18,11 +18,11 @@ papers:
     title: 'abspy: a Python package for 3D adaptive binary space partitioning and modeling'
     year: '2025'
   SuifyjcAAAAJ:9yKSN-GCB0IC:
-    citations: 84
+    citations: 85
     title: Reconstructing compact building models from point clouds using deep implicit fields
     year: '2022'
   SuifyjcAAAAJ:KlAtU1dfN6UC:
-    citations: 33
+    citations: 34
     title: 'Beyond grid data: exploring graph neural networks for Earth observation'
     year: '2024'
   SuifyjcAAAAJ:MXK_kJrjxJIC:
@@ -42,7 +42,7 @@ papers:
     title: 'Walking in the shade: shadow-oriented navigation for pedestrians'
     year: '2024'
   SuifyjcAAAAJ:_kc_bZDykSQC:
-    citations: 9
+    citations: 10
     title: 'TUM2TWIN: introducing the large-scale multimodal urban digital twin benchmark dataset'
     year: '2025'
   SuifyjcAAAAJ:aqlVkmm33-oC:

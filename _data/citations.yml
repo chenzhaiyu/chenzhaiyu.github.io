@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-05-01'
+  last_updated: '2026-05-18'
 papers:
   SuifyjcAAAAJ:2osOgNQ5qMEC:
     citations: 2
@@ -18,11 +18,11 @@ papers:
     title: 'abspy: A Python package for 3D adaptive binary space partitioning and modeling'
     year: '2025'
   SuifyjcAAAAJ:9yKSN-GCB0IC:
-    citations: 89
+    citations: 90
     title: Reconstructing compact building models from point clouds using deep implicit fields
     year: '2022'
   SuifyjcAAAAJ:KlAtU1dfN6UC:
-    citations: 38
+    citations: 41
     title: 'Beyond grid data: Exploring graph neural networks for Earth observation'
     year: '2024'
   SuifyjcAAAAJ:MXK_kJrjxJIC:
@@ -30,7 +30,7 @@ papers:
     title: Learning building energy efficiency with semantic attributes
     year: '2024'
   SuifyjcAAAAJ:Wp0gIr-vW9MC:
-    citations: 3
+    citations: 4
     title: Reconstructing building height from spaceborne TomoSAR point clouds using a dual-topology network
     year: '2026'
   SuifyjcAAAAJ:YOwf2qJgpHMC:
@@ -58,10 +58,10 @@ papers:
     title: "Automatic alignment of semantic building models with digital city models through multi-level point cloud semantic segmentation and registration using PSO optimization: A case \u2026"
     year: '2026'
   SuifyjcAAAAJ:qjMakFHDy7sC:
-    citations: 8
+    citations: 9
     title: A comparative study of point clouds semantic segmentation using three different neural networks on a railway station dataset
     year: '2021'
   SuifyjcAAAAJ:zYLM7Y9cAGgC:
-    citations: 36
+    citations: 40
     title: 'PolyGNN: Polyhedron-based graph neural network for 3D building reconstruction from point clouds'
     year: '2024'

@@ -58,12 +58,9 @@ layout: default
 
     <!-- Selected papers -->
     {% if page.selected_papers %}
-      <div style="display:flex; align-items:baseline; gap:0.5rem;">
-        <h2 style="margin:0;">selected publications</h2>
-        <span style="font-size:1.3rem; color:inherit; opacity:0.75;">
-          / <a href="{{ '/publications/' | relative_url }}" style="color:inherit; text-decoration:none;">all</a>
-        </span>
-      </div>
+      <h2>
+        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">Selected publications</a>
+      </h2>
       {% include selected_papers.liquid %}
     {% endif %}
 

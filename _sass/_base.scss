@@ -207,6 +207,8 @@ ul.task-list input[type="checkbox"] {
     margin-bottom: 5px;
     margin-top: 5px;
     font-family: monospace;
+    font-size: 0.9rem;
+    line-height: 1.35;
 
     p {
       display: inline-block;
@@ -225,7 +227,7 @@ ul.task-list input[type="checkbox"] {
 
 @media (min-width: 576px) {
   .profile {
-    width: 30%;
+    width: 24%;
 
     .address {
       p {
@@ -799,10 +801,11 @@ footer.sticky-bottom {
 
       .author {
         a {
-          border-bottom: 1px dashed var(--global-theme-color);
+          color: inherit;
+          border-bottom: none;
 
           &:hover {
-            border-bottom-style: solid;
+            color: inherit;
             text-decoration: none;
           }
         }

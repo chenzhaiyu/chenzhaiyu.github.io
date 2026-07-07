@@ -24,6 +24,40 @@ strong {
   opacity: 0.85;
 }
 
+.waving-hand {
+  display: inline-block;
+  transform-origin: 70% 70%;
+  animation: wave-hand 2.2s ease-in-out infinite;
+}
+
+@keyframes wave-hand {
+  0%,
+  60%,
+  100% {
+    transform: rotate(0deg);
+  }
+
+  10%,
+  30% {
+    transform: rotate(14deg);
+  }
+
+  20%,
+  40% {
+    transform: rotate(-8deg);
+  }
+
+  50% {
+    transform: rotate(6deg);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .waving-hand {
+    animation: none;
+  }
+}
+
 hr {
   border-top: 1px solid var(--global-divider-color);
 }
@@ -225,6 +259,28 @@ ul.task-list input[type="checkbox"] {
   margin-right: 1rem;
 }
 
+.about-hero {
+  display: flex;
+  gap: 2.5rem;
+  align-items: flex-start;
+}
+
+.about-content {
+  flex: 1 1 0;
+  max-width: 39rem;
+}
+
+.about-profile {
+  flex: 0 0 24%;
+  max-width: 24rem;
+  min-width: 13rem;
+  margin-left: auto;
+}
+
+.about-profile figure {
+  margin: 0;
+}
+
 @media (min-width: 576px) {
   .profile {
     width: 24%;
@@ -234,6 +290,27 @@ ul.task-list input[type="checkbox"] {
         display: block;
       }
     }
+  }
+
+  .about-profile {
+    width: auto;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .about-hero {
+    display: block;
+  }
+
+  .about-content {
+    max-width: none;
+  }
+
+  .about-profile {
+    width: 100%;
+    max-width: 20rem;
+    min-width: 0;
+    margin: 1.5rem 0 0;
   }
 }
 

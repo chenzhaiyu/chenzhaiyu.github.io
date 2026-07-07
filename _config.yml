@@ -9,8 +9,7 @@ last_name: Chen
 contact_note: 
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Zhaiyu Chen's personal website.
-footer_text: >
-  Hosted on <a href="https://github.com/chenzhaiyu/chenzhaiyu.github.io" target="_blank">GitHub</a>.
+footer_text:
 keywords: # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: 🧊 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)

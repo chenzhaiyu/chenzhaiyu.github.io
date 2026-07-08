@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-06-29'
+  last_updated: '2026-07-08'
 papers:
   SuifyjcAAAAJ:2osOgNQ5qMEC:
     citations: 2
@@ -18,7 +18,7 @@ papers:
     title: 'abspy: A Python package for 3D adaptive binary space partitioning and modeling'
     year: '2025'
   SuifyjcAAAAJ:9yKSN-GCB0IC:
-    citations: 94
+    citations: 95
     title: Reconstructing compact building models from point clouds using deep implicit fields
     year: '2022'
   SuifyjcAAAAJ:KlAtU1dfN6UC:
@@ -30,7 +30,7 @@ papers:
     title: Learning building energy efficiency with semantic attributes
     year: '2024'
   SuifyjcAAAAJ:Wp0gIr-vW9MC:
-    citations: 5
+    citations: 6
     title: Reconstructing building height from spaceborne TomoSAR point clouds using a dual-topology network
     year: '2026'
   SuifyjcAAAAJ:YOwf2qJgpHMC:
@@ -42,7 +42,7 @@ papers:
     title: 'Walking in the shade: Shadow-oriented navigation for pedestrians'
     year: '2024'
   SuifyjcAAAAJ:_kc_bZDykSQC:
-    citations: 14
+    citations: 15
     title: 'TUM2TWIN: Introducing the large-scale multimodal urban digital twin benchmark dataset'
     year: '2025'
   SuifyjcAAAAJ:aqlVkmm33-oC:

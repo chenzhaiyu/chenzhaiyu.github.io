@@ -1,6 +1,11 @@
 github_users:
   - chenzhaiyu
 
+github_user_metadata:
+  chenzhaiyu:
+    public_repos: 30
+    followers: 198
+
 repo_description_lines_max: 2
 
 github_repos:
@@ -12,3 +17,51 @@ github_repos:
   - complete3d/simeco
   - complete3d/unico
   - zhu-xlab/tomosar2height
+
+repo_metadata:
+  "chenzhaiyu/abspy":
+    description: "3D adaptive binary space partitioning and beyond [JOSS]"
+    language: Python
+    language_color: "#3572a5"
+    stars: 97
+    forks: 14
+  "chenzhaiyu/polygnn":
+    description: "PolyGNN: Polyhedron-based graph neural network for 3D building reconstruction from point clouds [ISPRS 2024]"
+    language: Python
+    language_color: "#3572a5"
+    stars: 158
+    forks: 16
+  "chenzhaiyu/points2poly":
+    description: "Reconstructing compact building models from point clouds using deep implicit fields [ISPRS 2022]"
+    language: Python
+    language_color: "#3572a5"
+    stars: 235
+    forks: 38
+  "chenzhaiyu/awesome-planar-reconstruction":
+    description: "A curated list on piecewise-planar reconstruction"
+    stars: 201
+    forks: 18
+  "complete3d/paco":
+    description: "Parametric completion for polygonal surface reconstruction [CVPR 2025]"
+    language: Python
+    language_color: "#3572a5"
+    stars: 82
+    forks: 8
+  "complete3d/simeco":
+    description: "Learning generalizable shape completion with SIM(3) equivariance [NeurIPS 2025]"
+    language: Python
+    language_color: "#3572a5"
+    stars: 22
+    forks: 4
+  "complete3d/unico":
+    description: "Unified primitive proxies for structured shape completion [CVPR 2026]"
+    language: Python
+    language_color: "#3572a5"
+    stars: 13
+    forks: 2
+  "zhu-xlab/tomosar2height":
+    description: "Reconstructing building height from spaceborne TomoSAR point clouds using a dual-topology network [TGRS 2026]"
+    language: Python
+    language_color: "#3572a5"
+    stars: 26
+    forks: 3

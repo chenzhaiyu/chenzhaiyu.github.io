@@ -4,6 +4,7 @@
 {% else %}
   {% assign show_owner = true %}
 {% endif %}
+{% assign metadata = site.data.repositories.repo_metadata[include.repository] %}
 
 <div class="repo p-2">
   <a
@@ -19,11 +20,16 @@
         {% if show_owner %}{{ include.repository }}{% else %}{{ repo_url[1] }}{% endif %}
       </span>
     </div>
-    <p class="repo-card-description">View this repository on GitHub.</p>
+    <p class="repo-card-description">{{ metadata.description | default: 'View this repository on GitHub.' }}</p>
     <div class="repo-card-meta">
-      <span class="repo-card-language"></span>
-      <span class="repo-card-stars"><i class="fa-regular fa-star"></i> &mdash;</span>
-      <span class="repo-card-forks"><i class="fa-solid fa-code-branch"></i> &mdash;</span>
+      <span class="repo-card-language">
+        {% if metadata.language %}
+          <span class="repo-card-lang-dot" style="background-color: {{ metadata.language_color | default: '#858585' }}"></span>
+          {{ metadata.language }}
+        {% endif %}
+      </span>
+      <span class="repo-card-stars"><i class="fa-regular fa-star"></i> {{ metadata.stars | default: '-' }}</span>
+      <span class="repo-card-forks"><i class="fa-solid fa-code-branch"></i> {{ metadata.forks | default: '-' }}</span>
     </div>
   </a>
 </div>

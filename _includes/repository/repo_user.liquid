@@ -1,3 +1,5 @@
+{% assign metadata = site.data.repositories.github_user_metadata[include.username] %}
+
 <div class="repo p-2">
   <a
     class="repo-card repo-card-user"
@@ -12,8 +14,8 @@
     </div>
     <p class="repo-card-description">@{{ include.username }} on GitHub</p>
     <div class="repo-card-meta">
-      <span class="repo-card-repos"><i class="fa-solid fa-book"></i> &mdash; repos</span>
-      <span class="repo-card-followers"><i class="fa-solid fa-users"></i> &mdash; followers</span>
+      <span class="repo-card-repos"><i class="fa-solid fa-book"></i> {{ metadata.public_repos | default: '-' }} repos</span>
+      <span class="repo-card-followers"><i class="fa-solid fa-users"></i> {{ metadata.followers | default: '-' }} followers</span>
     </div>
   </a>
 </div>

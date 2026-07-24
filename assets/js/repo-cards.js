@@ -81,7 +81,7 @@ async function hydrateRepository(card) {
     card.querySelector('.repo-card-forks').innerHTML = `<i class="fa-solid fa-code-branch"></i> ${formatNumber(data.forks_count)}`
     renderLanguage(card.querySelector('.repo-card-language'), data.language)
   } catch (_error) {
-    card.querySelector('.repo-card-description').textContent = 'Repository details are temporarily unavailable. Open it on GitHub.'
+    // Keep the build-time metadata when GitHub rate-limits anonymous requests.
   }
 }
 
@@ -94,7 +94,7 @@ async function hydrateUser(card) {
     card.querySelector('.repo-card-repos').innerHTML = `<i class="fa-solid fa-book"></i> ${formatNumber(data.public_repos)} repos`
     card.querySelector('.repo-card-followers').innerHTML = `<i class="fa-solid fa-users"></i> ${formatNumber(data.followers)} followers`
   } catch (_error) {
-    card.querySelector('.repo-card-description').textContent = `@${username} on GitHub`
+    // Keep the build-time metadata when GitHub rate-limits anonymous requests.
   }
 }
 

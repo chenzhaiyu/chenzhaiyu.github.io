@@ -5,6 +5,7 @@ title: repositories
 description: 
 nav: true
 nav_order: 4
+repo_cards: true
 ---
 
 {% if site.data.repositories.github_users %}

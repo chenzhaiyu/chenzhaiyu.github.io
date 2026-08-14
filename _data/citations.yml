@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-08-05'
+  last_updated: '2026-08-14'
 papers:
   SuifyjcAAAAJ:2osOgNQ5qMEC:
     citations: 2
@@ -26,13 +26,17 @@ papers:
     title: Reconstructing compact building models from point clouds using deep implicit fields
     year: '2022'
   SuifyjcAAAAJ:KlAtU1dfN6UC:
-    citations: 58
+    citations: 59
     title: 'Beyond grid data: Exploring graph neural networks for Earth observation'
     year: '2024'
   SuifyjcAAAAJ:MXK_kJrjxJIC:
     citations: 1
     title: Learning building energy efficiency with semantic attributes
     year: '2024'
+  SuifyjcAAAAJ:QIV2ME_5wuYC:
+    citations: 0
+    title: 'LAMES: A large-scale and artisanal mining environmental segmentation dataset'
+    year: '2026'
   SuifyjcAAAAJ:Wp0gIr-vW9MC:
     citations: 7
     title: Reconstructing building height from spaceborne TomoSAR point clouds using a dual-topology network
@@ -62,6 +66,6 @@ papers:
     title: A comparative study of point clouds semantic segmentation using three different neural networks on a railway station dataset
     year: '2021'
   SuifyjcAAAAJ:zYLM7Y9cAGgC:
-    citations: 47
+    citations: 48
     title: 'PolyGNN: Polyhedron-based graph neural network for 3D building reconstruction from point clouds'
     year: '2024'

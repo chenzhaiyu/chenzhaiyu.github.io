@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-08-14'
+  last_updated: '2026-08-21'
 papers:
   SuifyjcAAAAJ:2osOgNQ5qMEC:
     citations: 2
@@ -22,11 +22,11 @@ papers:
     title: "Automatic alignment of semantic building models with digital city models through multi-level point cloud semantic segmentation and registration using PSO optimization: A case \u2026"
     year: '2026'
   SuifyjcAAAAJ:9yKSN-GCB0IC:
-    citations: 100
+    citations: 101
     title: Reconstructing compact building models from point clouds using deep implicit fields
     year: '2022'
   SuifyjcAAAAJ:KlAtU1dfN6UC:
-    citations: 59
+    citations: 60
     title: 'Beyond grid data: Exploring graph neural networks for Earth observation'
     year: '2024'
   SuifyjcAAAAJ:MXK_kJrjxJIC:
@@ -38,7 +38,7 @@ papers:
     title: 'LAMES: A large-scale and artisanal mining environmental segmentation dataset'
     year: '2026'
   SuifyjcAAAAJ:Wp0gIr-vW9MC:
-    citations: 7
+    citations: 8
     title: Reconstructing building height from spaceborne TomoSAR point clouds using a dual-topology network
     year: '2026'
   SuifyjcAAAAJ:YOwf2qJgpHMC:
@@ -46,7 +46,7 @@ papers:
     title: Parametric point cloud completion for polygonal surface reconstruction
     year: '2025'
   SuifyjcAAAAJ:Zph67rFs4hoC:
-    citations: 11
+    citations: 12
     title: 'Walking in the shade: Shadow-oriented navigation for pedestrians'
     year: '2024'
   SuifyjcAAAAJ:_kc_bZDykSQC:
@@ -62,7 +62,7 @@ papers:
     title: "Artificial intelligence for the automated creation of multi-scale digital twins of the built world\u2013AI4TWINNING"
     year: '2023'
   SuifyjcAAAAJ:qjMakFHDy7sC:
-    citations: 8
+    citations: 9
     title: A comparative study of point clouds semantic segmentation using three different neural networks on a railway station dataset
     year: '2021'
   SuifyjcAAAAJ:zYLM7Y9cAGgC:

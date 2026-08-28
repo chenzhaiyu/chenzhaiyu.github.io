@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-08-21'
+  last_updated: '2026-08-28'
 papers:
   SuifyjcAAAAJ:2osOgNQ5qMEC:
     citations: 2
@@ -26,7 +26,7 @@ papers:
     title: Reconstructing compact building models from point clouds using deep implicit fields
     year: '2022'
   SuifyjcAAAAJ:KlAtU1dfN6UC:
-    citations: 60
+    citations: 61
     title: 'Beyond grid data: Exploring graph neural networks for Earth observation'
     year: '2024'
   SuifyjcAAAAJ:MXK_kJrjxJIC:
@@ -42,7 +42,7 @@ papers:
     title: Reconstructing building height from spaceborne TomoSAR point clouds using a dual-topology network
     year: '2026'
   SuifyjcAAAAJ:YOwf2qJgpHMC:
-    citations: 12
+    citations: 13
     title: Parametric point cloud completion for polygonal surface reconstruction
     year: '2025'
   SuifyjcAAAAJ:Zph67rFs4hoC:
@@ -50,7 +50,7 @@ papers:
     title: 'Walking in the shade: Shadow-oriented navigation for pedestrians'
     year: '2024'
   SuifyjcAAAAJ:_kc_bZDykSQC:
-    citations: 15
+    citations: 16
     title: 'TUM2TWIN: Introducing the large-scale multimodal urban digital twin benchmark dataset'
     year: '2025'
   SuifyjcAAAAJ:aqlVkmm33-oC:

@@ -14,6 +14,11 @@ profile:
     80333 Munich
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
+research_intro: >-
+  My research interests lie at the intersection of 3D computer vision and machine learning,
+  spanning <span class="research-theme research-theme--perception">generalizable perception</span>,
+  <span class="research-theme research-theme--representation">structured representation</span>,
+  and <span class="research-theme research-theme--modeling">verifiable modeling</span>.
 social: false # includes social icons at the bottom of the page
 
 announcements:
@@ -28,5 +33,3 @@ latest_posts:
 ---
 
 I am a final-year PhD student at [TU Munich](https://www.tum.de/en/), advised by Prof. [Xiao Xiang Zhu](https://scholar.google.de/citations?user=CNakdIgAAAAJ) at the [Chair of Data Science in Earth Observation](https://www.asg.ed.tum.de/en/sipeo/home/), and affiliated with the [Munich Center for Machine Learning](https://www.mcml.ai/). I am currently an academic visitor at [ETH Zurich](https://ethz.ch/en.html), hosted by Prof. [Konrad Schindler](https://scholar.google.com/citations?user=FZuNgqIAAAAJ) in the [Photogrammetry and Remote Sensing Group](https://prs.igp.ethz.ch/). I received my MSc from [TU Delft](https://www.tudelft.nl/en/), where I was advised by Prof. [Liangliang Nan](https://3d.bk.tudelft.nl/liangliang/), and a BEng from [Wuhan University](https://en.whu.edu.cn/).
-
-My research interests lie at the intersection of 3D computer vision and machine learning, seeking generalizable, scalable, and verifiable representations of the built world across perception, reconstruction, and generation.

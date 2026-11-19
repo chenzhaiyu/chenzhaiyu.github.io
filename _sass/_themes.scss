@@ -30,6 +30,10 @@
   --global-newsletter-bg-color: #{$white-color};
   --global-newsletter-text-color: #{$black-color};
 
+  --research-perception-color: #5272b7;
+  --research-representation-color: #2e8b7a;
+  --research-modeling-color: #b47a38;
+
   --global-tip-block: #42b983;
   --global-tip-block-bg: #e2f5ec;
   --global-tip-block-text: #215d42;
@@ -100,6 +104,10 @@ html[data-theme="dark"] {
   --global-back-to-top-text-color: #{$black-color};
   --global-newsletter-bg-color: #{$grey-color-light};
   --global-newsletter-text-color: #{$grey-color-dark};
+
+  --research-perception-color: #91a9df;
+  --research-representation-color: #70c1ad;
+  --research-modeling-color: #dbb276;
 
   --global-tip-block: #42b983;
   --global-tip-block-bg: #215d42;

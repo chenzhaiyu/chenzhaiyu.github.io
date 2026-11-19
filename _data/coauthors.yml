@@ -9,6 +9,12 @@
 "zhu":
   - firstname: ["Xiao Xiang", "X. X.", "XiaoXiang"]
     url: https://www.asg.ed.tum.de/sipeo/team/zhu/
+  - firstname: ["Dekai", "D."]
+    url: https://dekai21.github.io/
+
+"ilic":
+  - firstname: ["Slobodan", "S."]
+    url: https://www.cs.cit.tum.de/en/camp/members/senior-affiliates/slobodan-ilic/
 
 "xiong":
   - firstname: ["Zhitong", "Z."]

@@ -1,0 +1,9 @@
+# Multiple memberships in papers.bib: research_theme={perception,representation}.
+- id: perception
+  label: Generalizable perception
+
+- id: representation
+  label: Structured representation
+
+- id: modeling
+  label: Verifiable modeling

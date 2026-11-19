@@ -232,6 +232,63 @@ ul.task-list input[type="checkbox"] {
   color: var(--global-theme-color);
 }
 
+// Research themes
+
+@each $theme in perception, representation, modeling {
+  .research-theme--#{$theme} {
+    --research-marker-color: var(--research-#{$theme}-color);
+  }
+}
+
+.research-marker,
+.research-theme::before {
+  display: inline-block;
+  width: 0.5rem;
+  height: 0.5rem;
+  margin-right: 0.2rem;
+  border-radius: 50%;
+  background-color: var(--research-marker-color);
+  vertical-align: middle;
+}
+
+.research-theme::before {
+  content: "";
+}
+
+.research-theme {
+  display: inline;
+  color: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  line-height: inherit;
+  white-space: nowrap;
+}
+
+.research-introduction {
+  grid-column: 1;
+  grid-row: 2;
+
+  > h2 {
+    margin: 0 0 0.6rem;
+  }
+}
+
+.research-publications {
+  margin-top: 1.5rem;
+
+  > .publications {
+    margin-top: 0;
+  }
+}
+
+.research-intro {
+  max-width: 42rem;
+
+  p {
+    margin-bottom: 0;
+  }
+}
+
 // Profile
 
 .profile {
@@ -260,21 +317,31 @@ ul.task-list input[type="checkbox"] {
 }
 
 .about-hero {
-  display: flex;
-  gap: 2.5rem;
-  align-items: flex-start;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 13rem;
+  grid-template-rows: min-content 1fr;
+  column-gap: 2.5rem;
+  row-gap: 1.5rem;
+  align-items: start;
 }
 
 .about-content {
-  flex: 1 1 0;
-  max-width: 39rem;
+  grid-column: 1;
+  grid-row: 1;
+  max-width: 40rem;
+
+  > :last-child {
+    margin-bottom: 0;
+  }
 }
 
 .about-profile {
-  flex: 0 0 24%;
-  max-width: 24rem;
-  min-width: 13rem;
-  margin-left: auto;
+  grid-column: 2;
+  grid-row: 1 / span 2;
+  width: 100%;
+  max-width: none;
+  min-width: 0;
+  margin: 0;
 }
 
 .about-profile figure {
@@ -293,7 +360,7 @@ ul.task-list input[type="checkbox"] {
   }
 
   .about-profile {
-    width: auto;
+    width: 100%;
   }
 }
 
@@ -304,6 +371,10 @@ ul.task-list input[type="checkbox"] {
 
   .about-content {
     max-width: none;
+  }
+
+  .research-introduction {
+    margin-top: 1.5rem;
   }
 
   .about-profile {
@@ -1055,18 +1126,18 @@ footer.sticky-bottom {
       }
 
       div.abstract.hidden {
-        border: dashed 1px var(--global-bg-color);
+        border: 0;
       }
 
       div.abstract.hidden.open {
-        border-color: var(--global-text-color);
+        border: dashed 1px var(--global-text-color);
       }
     }
     div.award.hidden {
-      border: dashed 1px var(--global-bg-color);
+      border: 0;
     }
     div.award.hidden.open {
-      border-color: var(--global-highlight-color);
+      border: dashed 1px var(--global-highlight-color);
     }
   }
 }

@@ -40,6 +40,15 @@ layout: default
           {% endif %}
         </aside>
       {% endif %}
+
+      {% if page.selected_papers %}
+        <div class="research-introduction">
+          <h2 id="research-heading">Research</h2>
+          {% if page.research_intro %}
+            <div class="research-intro">{{ page.research_intro | markdownify }}</div>
+          {% endif %}
+        </div>
+      {% endif %}
     </div>
 
     <!-- News -->
@@ -58,12 +67,11 @@ layout: default
       {% include latest_posts.liquid %}
     {% endif %}
 
-    <!-- Selected papers -->
+    <!-- Research -->
     {% if page.selected_papers %}
-      <h2>
-        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">selected publications</a>
-      </h2>
-      {% include selected_papers.liquid %}
+      <section class="research-publications" aria-labelledby="research-heading">
+        {% include selected_papers.liquid %}
+      </section>
     {% endif %}
 
     <!-- Social -->

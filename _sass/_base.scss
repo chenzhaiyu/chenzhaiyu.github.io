@@ -720,7 +720,9 @@ footer.sticky-bottom {
   color: var(--global-text-color);
   text-align: left;
   text-decoration: none;
-  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+  transition:
+    border-color 0.2s ease,
+    box-shadow 0.2s ease;
 
   &:hover {
     border-color: var(--global-theme-color);

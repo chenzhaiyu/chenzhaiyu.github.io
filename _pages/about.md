@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: 
+subtitle:
 
 profile:
   align: right
@@ -20,7 +20,6 @@ research_intro: >-
   <span class="research-theme research-theme--representation">structured representation</span>,
   and <span class="research-theme research-theme--modeling">verifiable modeling</span>.
 social: false # includes social icons at the bottom of the page
-
 announcements:
   enabled: false # includes a list of news items
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
